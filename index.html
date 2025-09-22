@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nehal Diab | Data Analyst</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+<nav>
+    <a href="index.html" class="logo">
+        <img src="logo.png" alt="Nehal Diab Logo">
+    </a>
+    <div class="nav-right">
+        <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#tools">Tools</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+
+        <button class="theme-toggle" id="theme-toggle" title="Toggles light & dark" aria-label="auto" aria-live="polite">
+            <!-- SVG code for theme toggle remains here -->
+            <svg class="sun-and-moon" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24">
+                <mask class="moon" id="moon-mask"><rect x="0" y="0" width="100%" height="100%" fill="white" /><circle cx="24" cy="10" r="6" fill="black" /></mask>
+                <circle class="sun" cx="12" cy="12" r="6" mask="url(#moon-mask)" fill="currentColor" />
+                <g class="sun-beams" stroke="currentColor"><line x1="12" y1="1" x2="12" y2="3" /><line x1="12" y1="21" x2="12" y2="23" /><line x1="4.22" y1="4.22" x2="5.64" y2="5.64" /><line x1="18.36" y1="18.36" x2="19.78" y2="19.78" /><line x1="1" y1="12" x2="3" y2="12" /><line x1="21" y1="12" x2="23" y2="12" /><line x1="4.22" y1="19.78" x2="5.64" y2="18.36" /><line x1="18.36" y1="5.64" x2="19.78" y2="4.22" /></g>
+            </svg>
+        </button>
+        <button class="hamburger-btn" id="hamburger-btn" aria-label="Open menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+</nav>
+
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Nehal Diab </h1>
+                    <div class="subtitle-wrapper">
+                        <h2 id="subtitle">Data Analyst</h2>
+                    </div>
+                    <p class="tagline">"Data tells the story, I help you read it."</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="https://drive.google.com/file/d/1vV3skqsMUZIiulfXkWpESHvTuLByfRjV/view?usp=sharing" target="_blank" class="btn btn-secondary">Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>
+                    
+About Me
+
+I’ve always been fascinated by the stories hidden in data. For me, numbers are more than rows and columns—they’re narratives waiting to be uncovered. As a Computer Science student, I’ve built dashboards in Power BI, written complex SQL queries, and transformed raw data into actionable insights. I enjoy uncovering patterns, spotting key trends, and turning curiosity into clarity. I’m excited to grow as a Data Analyst/BI professional, using data to solve problems and drive smarter decisions.
+                </p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="projects-grid">
+                    <!-- Project 3: Medical Sales -->
+                   
+                    
+                    <!-- Project 1: Olist E_Commerce DataSet -->
+                    <div class="project-card">
+                        <img src="olist.PNG" alt="Adventure Works Sales Analysis">
+                        <div class="project-info">
+                            <h3>Olist E_Commerce DataSet </h3>
+                            <p>"Comprehensive Brazilian e-commerce dataset with orders, customers, sellers, reviews, and products — ideal for analyzing sales, customer behavior, and logistics.".</p>
+                            <div class="tools"><span>Power BI</span><span>SQL</span><span>Excel</span><span>Python</span></div>
+                            <a href="https://github.com/nehaldiab/Olist-Dataset" target="_blank" class="btn-project">View on GitHub</a>
+                            <br>
+                             <a href="https://www.novypro.com/create_project/olist-e-commerce-dataset" target="_blank" class="btn-project">View on NovyPro</a>
+                        </div>
+                    </div>
+                    <!-- Project 2: HR Analysis -->
+                    <div class="project-card">
+                        <img src="HR.PNG" alt="HR Analysis Dashboard">
+                        <div class="project-info">
+                            <h3>HR Analysis Dashboard</h3>
+                            <p>An interactive dashboard analyzing workforce data to understand demographics, identify attrition trends, and support retention strategies.</p>
+                            <div class="tools"><span>Power BI</span><span>DAX</span></div>
+                            <a href="https://github.com/nehaldiab/HR-Analysis-Dashboard" target="_blank" class="btn-project">View on GitHub</a>
+                            <br>
+                             <a href="https://www.novypro.com/project/hr-analysis-dashboard-48" target="_blank" class="btn-project">View on NovyPro</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 5: Sales Excel Dashboard -->
+                    <div class="project-card">
+                        <img src="Sales.PNG" alt="Sales Analysis Dashboard">
+                        <div class="project-info">
+                            <h3>Sales Analysis Dashboard </h3>
+                            <p>An interactive dashboard built entirely in Power bi analyze over 256M in revenue, identifying sales trends, top products, and high-performing outlets.</p>
+                            <div class="tools"><span>Excel</span><span>Power bi</span><span>Sql</span></div>
+                            <a href="https://github.com/nehaldiab/Sales-Dashboard/blob/main/README.md" target="_blank" class="btn-project">View on GitHub</a>
+                        </div>
+                    </div>
+                    <!-- Project 4: Udemy -->
+                    <div class="project-card">
+                        <img src="Udemy.PNG" alt="Udemy Courses Analysis">
+                        <div class="project-info">
+                            <h3>Udemy Courses Performance Analysis</h3>
+                            <p>An interactive dashboard analyzing Udemy's course data to provide insights on revenue, student engagement, and performance optimization for creators and managers.</p>
+                            <div class="tools"><span>Pithon</span><span>Excel</span></div>
+                            <a href="https://github.com/nehaldiab/udemy_course/blob/main/udemy_course.ipynb" target="_blank" class="btn-project">View on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!-- ================================================== -->
+<!--               Skills Section (Updated)             -->
+<!-- ================================================== -->
+<section id="skills">
+    <div class="container">
+        <h2>My Skills</h2>
+        <div class="skills-wrapper">
+            <!-- Technical Skills Card -->
+            <div class="skills-category">
+                <h3>Technical Skills</h3>
+                <ul>
+                    <li>Data Analysis & Business Intelligence (BI)</li>
+                    <li>Data Visualization (Power BI)</li>
+                    <li>SQL & Database Design</li>
+                    <li>Python (Pandas)</li>
+                    <li>Advanced Excel (Power Query, DAX)</li>
+                    <li>ETL Processes & Data Cleaning</li>
+                </ul>
+            </div>
+            <!-- Soft Skills Card -->
+            <div class="skills-category">
+                <h3>Soft Skills</h3>
+                <ul>
+                    <li>Analytical Thinking</li>
+                    <li>Problem-Solving</li>
+                    <li>Communication</li>
+                    <li>Teamwork</li>
+                    <li>Attention to Detail</li>
+                    <li>Storytelling with Data</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+        <section id="tools">
+            <div class="container">
+                <h2>Tools & Technologies</h2>
+                <div class="tools-grid">
+                    <div class="tool-card"><img src="tool-powerbi.png" alt="Power BI"><span>Power BI</span></div>
+                    <div class="tool-card"><img src="tool-sql.png" alt="SQL"><span>SQL</span></div>
+                    <div class="tool-card"><img src="tool-python.png" alt="Python"><span>Python</span></div>
+                    <div class="tool-card"><img src="tool-excel.png" alt="Excel"><span>Excel</span></div>
+                </div>
+            </div>
+        </section>
+
+       
+
+        <section id="contact">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <p>I'm currently seeking new opportunities and am excited to connect. Feel free to reach out!</p>
+                <a href="mailto:nehaldiab717@gmail.com" class="btn btn-primary">Email Me</a>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/nehal-diab-810b82209/" target="_blank">LinkedIn</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Nehal Diab. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+  <!-- Modal for viewing full-size certificate -->
+<div id="modal" class="modal">
+    <span class="close-button" id="close-modal">&times;</span>
+    <img class="modal-content" id="modal-image">
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
